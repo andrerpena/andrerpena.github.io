@@ -1,0 +1,39 @@
+@import "variables";
+
+.react-mde {
+    border: 1px solid $default-border-color;
+    .mde-header {
+        padding: 0.5rem;
+        border-bottom: 1px solid $default-border-color;
+        ul.mde-header-group {
+            display:inline-block;
+            margin: 0;
+            margin-right: 1rem;
+            padding: 0;
+            list-style: none;
+            li.mde-header-item {
+                display: inline-block;
+                margin: 0 0.25rem;
+                button {
+                    cursor: pointer;
+                    padding: .25rem;
+                    margin: 0;
+                    border: none;
+                    background: none;
+                }
+            }
+        }
+    }
+
+    .mde-text {
+        textarea {
+            width: 100%;
+            min-height: $textarea-min-height;
+            padding: $textarea-padding;
+        }
+    }
+
+    .mde-preview {
+
+    }
+}
