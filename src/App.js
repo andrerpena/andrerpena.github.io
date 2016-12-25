@@ -38,11 +38,12 @@ const Block = ({title, children}) => <div className="block">
     </div>
 </div>
 
-const Item = ({title, iconClass}) => {
-    let icon = icon ? <i className={`fa fa-${iconClass}`} aria-hidden="true"></i> : null;
+const Item = ({title, icon, url}) => {
+    let iconElement = icon ? <i className={`fa fa-${icon}`} aria-hidden="true"></i> : null;
+    let urlElement = url ? <a href={url} className={iconElement ? "" : "no-margin"} target="_blank">{title}</a> : <span className={iconElement ? "" : "no-margin"}>{title}</span>;
     return <div className="item">
-        <icon />
-        <span>{title}</span>
+        { iconElement }
+        { urlElement} 
     </div>
 }
 
@@ -75,14 +76,14 @@ class App extends Component {
                 </Block>
                 <Block title="Social Media">
                     <div className="social-media-wrapper">
-                        <Item title="Stackoverflow" icon="stack-overflow" />
-                        <Item title="Stackoverflow Jobs" icon="stack-overflow" />
-                        <Item title="GitHub" icon="github" />
-                        <Item title="Medium" icon="medium" />
-                        <Item title="Linkedin" icon="linkedin" />
-                        <Item title="Facebook" icon="facebook" />
-                        <Item title="Twitter" icon="twitter" />
-                        <Item title="Hackerrank" icon="header" />
+                        <Item title="Stackoverflow" icon="stack-overflow" url="http://stackoverflow.com/users/192729/andrerpena" />
+                        <Item title="Stackoverflow Jobs" icon="stack-overflow" url="http://stackoverflow.com/users/story/192729" />
+                        <Item title="GitHub" icon="github" url="https://github.com/andrerpena" />
+                        <Item title="Medium" icon="medium" url="https://medium.com/@andrerpena" />
+                        <Item title="Linkedin" icon="linkedin" url="https://www.linkedin.com/in/andr%C3%A9-pena-1827b088"/>
+                        <Item title="Facebook" icon="facebook" url="https://www.facebook.com/andrerpena" />
+                        <Item title="Twitter" icon="twitter" url="https://twitter.com/andrerpena"/>
+                        <Item title="Hackerrank" icon="header" url="https://www.hackerrank.com/andrerpena" />
                     </div>
                 </Block>
                 <Block title="Technologies I'm familiar with">
@@ -92,6 +93,9 @@ class App extends Component {
                         <Item title="ASP.NET MVC" />
                         <Item title="ASP.NET WebForms" />
                         <Item title="JavaScript" />
+                        <Item title="React" />
+                        <Item title="Redux" />
+                        <Item title="Vue" />
                         <Item title="Node.js" />
                         <Item title="Python" />
                         <Item title="HTML 5" />
@@ -110,12 +114,18 @@ class App extends Component {
                         <Item title="andrerpena@gmail.com" icon="envelope" />
                     </div>
                 </Block>
+                <Block title="Certifications">
+                    <div className="certifications-wrapper">
+                        <Item title="Microsoft Specialist: Programming in HTML5 with JavaScript and CSS3 " icon="trophy" />
+                        <Item title="Microsoft Specialist: Programming in C#  " icon="trophy" />
+                        <Item title="Microsoft Certified Professional " icon="trophy" />
+                        <Item title="Microsoft® Certified Technology Specialist: .NET Framework 4, Web Applications" icon="trophy" />
+                    </div>
+                </Block>
                 <Block title="Location">
                     <iframe width="600" height="300" frameBorder="0" style={{ border: 0, marginTop: 5 }}
                         src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJT5tvl1-bmAAR7llGN0HiHvo&key=AIzaSyA6Wlf-UvJONIzGsyp-g53SMdgcgyLjQG4"></iframe>
                 </Block>
-
-
             </div>
         );
     }
