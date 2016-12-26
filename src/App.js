@@ -155,7 +155,7 @@ class App extends Component {
                     </div>
                 </Block>
                 <Block title="Location">
-                    <iframe width="600" height="300" frameBorder="0" style={{ border: 0, marginTop: 5 }}
+                    <iframe width="100%" height="300" frameBorder="0" style={{ border: 0, marginTop: 5 }}
                         src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJT5tvl1-bmAAR7llGN0HiHvo&key=AIzaSyA6Wlf-UvJONIzGsyp-g53SMdgcgyLjQG4"></iframe>
                 </Block>
             </div>
