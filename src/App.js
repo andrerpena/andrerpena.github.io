@@ -7,7 +7,7 @@ const Picture = () => <div className="picture">
 
 const MainHeader = () => <div className="main-header">
     <h1>
-        André Rodrigues Pena
+        Andr&#233; Rodrigues Pena
     </h1>
     <p>
         Software developer, architect, teach lead, open-source contributor, 32 years old

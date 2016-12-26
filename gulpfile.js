@@ -13,7 +13,7 @@ gulp.task('copy-index', function () {
         .pipe(gulp.dest('./build'));
 });
 
-gulp.task('build-demo', ['copy-index'], function () {
+gulp.task('build', ['copy-index'], function () {
     return gulp.src("./src/client.js")
         .pipe(webpack(webpackConfig))
         .pipe(gulp.dest('./build'));
