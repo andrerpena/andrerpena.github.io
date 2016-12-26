@@ -48,11 +48,13 @@ body {
             width: 50%;
             text-align: center;
             padding: 20px;
-            span {
-                margin-left: 10px;
-            }
             &:first-child {
                 border-right: 1px solid lighten($color1, 0.5);
+            }
+            a {
+                text-decoration: none;
+                color: $white;
+                margin-left: 10px;
             }
         }
     }

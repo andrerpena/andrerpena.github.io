@@ -13,7 +13,17 @@ gulp.task('copy-index', function () {
         .pipe(gulp.dest('./build'));
 });
 
-gulp.task('build', ['copy-index'], function () {
+gulp.task('copy-cv', function () {
+    return gulp.src('./cv/cv.pdf')
+        .pipe(gulp.dest('./build'));
+});
+
+gulp.task('copy-cname', function () {
+    return gulp.src('./CNAME')
+        .pipe(gulp.dest('./build'));
+});
+
+gulp.task('build', ['copy-index', 'copy-cv', 'copy-cname'], function () {
     return gulp.src("./src/client.js")
         .pipe(webpack(webpackConfig))
         .pipe(gulp.dest('./build'));

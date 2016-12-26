@@ -18,11 +18,11 @@ const ButtonBar = () => {
     return <div className="button-bar">
         <div className="button">
             <i className="fa fa-download" aria-hidden="true"></i>
-            <span>Download CV</span>
+            <a href="cv.pdf">Download CV</a>
         </div>
         <div className="button">
             <i className="fa fa-envelope" aria-hidden="true"></i>
-            <span>Contact me</span>
+            <a href="mailto:andrerpena@gmail.com">Contact me</a>
         </div>
     </div>
 }
