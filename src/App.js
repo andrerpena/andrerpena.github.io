@@ -10,7 +10,7 @@ const MainHeader = () => <div className="main-header">
         André Rodrigues Pena
     </h1>
     <p>
-        Software Developer, Software Architect, Teach Lead, 32 years old
+        Software developer, architect, teach lead, open-source contributor, 32 years old
     </p>
 </div>
 
@@ -71,7 +71,7 @@ class App extends Component {
                         <b>Software Architect</b> at <a href="http://thomsonreuters.com/en.html">Thomson Reuters</a>. Because this title has a different meaning at different places, basically
                         I help designing the architecture for a web practice managament system for laywers called <a href="https://www.thomsonreuters.com.br/pt/juridico/legal-one.html">Legal One</a>. I also
                         help integrating Thomson Reuters technologies across the globe, I review code, I create POCs for new technologies and I provide effort estimation for new requirements.
-                        I never stopped coding.
+                        Nevertheless, I never stopped coding.
                     </p>
                 </Block>
                 <Block title="Social Media">
@@ -105,6 +105,15 @@ class App extends Component {
                         <Item title="Babel" />
                         <Item title="Git" />
                         <Item title="TFS" />
+                        <Item title="Chrome Extensions" />
+                    </div>
+                </Block>
+                <Block title="Technologies I'm currently studying and plan to become familiar in 2017">
+                    <div className="technologies-future-wrapper">
+                        <Item title="Python" />
+                        <Item title="Azure" />
+                        <Item title="Angular 2" />
+                        <Item title="TypeScript" />
                     </div>
                 </Block>
                 <Block title="Contact">
@@ -120,6 +129,29 @@ class App extends Component {
                         <Item title="Microsoft Specialist: Programming in C#  " icon="trophy" />
                         <Item title="Microsoft Certified Professional " icon="trophy" />
                         <Item title="Microsoft® Certified Technology Specialist: .NET Framework 4, Web Applications" icon="trophy" />
+                    </div>
+                </Block>
+                <Block title="Certifications I'm studing for an planning to get in 2017">
+                    <div className="certifications-future-wrapper">
+                        <Item title="MCSA: Cloud Platform (Azure)" icon="trophy" />
+                    </div>
+                </Block>
+                <Block title="Open Source projects I'm currently working on">
+                    <div className="open-source-wrapper">
+                        <Item title="react-mde (React component)" icon="github" url="https://github.com/andrerpena/react-mde" />
+                        <Item title="L1PM (Chrome extension)" icon="github" url="https://github.com/andrerpena/legalone-pacote-melhorias" />
+                        <Item title="Pushpad (web app)" icon="github" url="https://github.com/andrerpena/pushpad" />
+                        <Item title="Matterspace (web app)" icon="github" url="https://github.com/matterspace/matterspace" />
+                        <Item title="This website (website)" icon="github" url="https://github.com/andrerpena/andrerpena.github.io" />
+                    </div>
+                </Block>
+                <Block title="Open Source projects I've built but don't maintain anymore">
+                    <div className="open-source-past-wrapper">
+                        <Item title="react-metaform (React component)" icon="github" url="https://github.com/gearz-lab/react-metaform" />
+                        <Item title="react-vnav (React component)" icon="github" url="https://github.com/gearz-lab/react-vnav" />
+                        <Item title="redux-autoform (React component)" icon="github" url="https://github.com/redux-autoform/redux-autoform" />
+                        <Item title="chatjs (jQuery plugin)" icon="github" url="https://github.com/andrerpena/chatjs" />
+                        <Item title="quotr (Node app)" icon="github" url="https://github.com/andrerpena/quotr" />
                     </div>
                 </Block>
                 <Block title="Location">
