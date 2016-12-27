@@ -103,6 +103,7 @@ class App extends Component {
                         <Item title="SASS" />
                         <Item title="Webpack" />
                         <Item title="Babel" />
+                        <Item title="Gulp" />
                         <Item title="Git" />
                         <Item title="TFS" />
                         <Item title="Chrome Extensions" />
@@ -152,6 +153,8 @@ class App extends Component {
                         <Item title="redux-autoform (React component)" icon="github" url="https://github.com/redux-autoform/redux-autoform" />
                         <Item title="chatjs (jQuery plugin)" icon="github" url="https://github.com/andrerpena/chatjs" />
                         <Item title="quotr (Node app)" icon="github" url="https://github.com/andrerpena/quotr" />
+                        <Item title="formato (JavaScript library)" icon="github" url="https://github.com/gearz-lab/formato" />
+                        <Item title="Cerebello (ASP.NET app)" icon="github" url="https://github.com/andrerpena/Cerebello" />
                     </div>
                 </Block>
                 <Block title="Location">
