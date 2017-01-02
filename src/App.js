@@ -84,6 +84,7 @@ class App extends Component {
                         <Item title="Facebook" icon="facebook" url="https://www.facebook.com/andrerpena" />
                         <Item title="Twitter" icon="twitter" url="https://twitter.com/andrerpena"/>
                         <Item title="Hackerrank" icon="header" url="https://www.hackerrank.com/andrerpena" />
+                        <Item title="NPM" icon="code" url="https://www.npmjs.com/~andrerpena" />
                     </div>
                 </Block>
                 <Block title="Technologies I'm familiar with">
