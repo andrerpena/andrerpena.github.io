@@ -66,6 +66,9 @@ class App extends Component {
                     <p>
                         My hobbies are video-games, playing the guitar, traveling and photography.
                     </p>
+                    <p>
+                        More details about my professional career [here](http://stackoverflow.com/story/andrepena).
+                    </p>
                 </Block>
                 <Block title="Current job">
                     <p>
