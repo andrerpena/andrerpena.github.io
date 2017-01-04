@@ -60,7 +60,8 @@ class App extends Component {
                     <p>
                         I'm self-motivated and passionate about software development and technology in general. I enjoy learning new frameworks, libraries and tools.
                         I like to participate in online communities like Stackoverflow and contribute to open-source on GitHub. I have 10+ years of experience
-                        with software development.
+                        with software development. I have experience with a lot of modern technologies (I don't like being stuck in the past) and I'm used to
+                        work in a remote / international team.
                     </p>
                     <p>
                         My hobbies are video-games, playing the guitar, traveling and photography.
@@ -71,7 +72,7 @@ class App extends Component {
                         <b>Software Architect</b> at <a href="http://thomsonreuters.com/en.html">Thomson Reuters</a>. Because this title has a different meaning at different places, basically
                         I help designing the architecture for a web practice managament system for laywers called <a href="https://www.thomsonreuters.com.br/pt/juridico/legal-one.html">Legal One</a>. I also
                         help integrating Thomson Reuters technologies across the globe, I review code, I create POCs for new technologies and I provide effort estimation for new requirements.
-                        Nevertheless, I never stopped coding.
+                        Last but not least, I code a lot.
                     </p>
                 </Block>
                 <Block title="Social Media">
