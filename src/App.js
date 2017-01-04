@@ -42,8 +42,8 @@ const Item = ({title, icon, url}) => {
     let iconElement = icon ? <i className={`fa fa-${icon}`} aria-hidden="true"></i> : null;
     let urlElement = url ? <a href={url} className={iconElement ? "" : "no-margin"} target="_blank">{title}</a> : <span className={iconElement ? "" : "no-margin"}>{title}</span>;
     return <div className="item">
-        { iconElement }
-        { urlElement} 
+        {iconElement}
+        {urlElement}
     </div>
 }
 
@@ -67,7 +67,7 @@ class App extends Component {
                         My hobbies are video-games, playing the guitar, traveling and photography.
                     </p>
                     <p>
-                        More details about my professional career [here](http://stackoverflow.com/story/andrepena).
+                        More details about my professional career <a href="http://stackoverflow.com/story/andrepena">here</a>.
                     </p>
                 </Block>
                 <Block title="Current job">
@@ -84,9 +84,9 @@ class App extends Component {
                         <Item title="Stackoverflow Jobs" icon="stack-overflow" url="http://stackoverflow.com/users/story/192729" />
                         <Item title="GitHub" icon="github" url="https://github.com/andrerpena" />
                         <Item title="Medium" icon="medium" url="https://medium.com/@andrerpena" />
-                        <Item title="Linkedin" icon="linkedin" url="https://www.linkedin.com/in/andr%C3%A9-pena-1827b088"/>
+                        <Item title="Linkedin" icon="linkedin" url="https://www.linkedin.com/in/andr%C3%A9-pena-1827b088" />
                         <Item title="Facebook" icon="facebook" url="https://www.facebook.com/andrerpena" />
-                        <Item title="Twitter" icon="twitter" url="https://twitter.com/andrerpena"/>
+                        <Item title="Twitter" icon="twitter" url="https://twitter.com/andrerpena" />
                         <Item title="Hackerrank" icon="header" url="https://www.hackerrank.com/andrerpena" />
                         <Item title="NPM" icon="code" url="https://www.npmjs.com/~andrerpena" />
                     </div>
