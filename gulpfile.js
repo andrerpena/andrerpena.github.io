@@ -18,12 +18,17 @@ gulp.task('copy-cv', function () {
         .pipe(gulp.dest('./build'));
 });
 
+gulp.task('copy-favicon', function () {
+    return gulp.src('./src/favicon.ico')
+        .pipe(gulp.dest('./build'));
+});
+
 gulp.task('copy-cname', function () {
     return gulp.src('./CNAME')
         .pipe(gulp.dest('./build'));
 });
 
-gulp.task('build', ['copy-index', 'copy-cv', 'copy-cname'], function () {
+gulp.task('build', ['copy-index', 'copy-cv', 'copy-cname', 'copy-favicon'], function () {
     return gulp.src("./src/client.js")
         .pipe(webpack(webpackConfig))
         .pipe(gulp.dest('./build'));
