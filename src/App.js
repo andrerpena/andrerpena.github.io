@@ -71,8 +71,7 @@ class App extends Component {
                         web technologies like Node, React, Redux and all that comes with it (Webpack, Babel...).
                     </p>
                     <p>
-                        I like to participate in online communities like <a href="http://stackoverflow.com/users/192729/andrerpena">Stackoverflow</a>
-                        and contribute to open-source on <a href="https://github.com/andrerpena">GitHub</a>. Lately I've been also spending some time
+                        I like to participate in online communities like <a href="http://stackoverflow.com/users/192729/andrerpena">Stackoverflow</a> and contribute to open-source on <a href="https://github.com/andrerpena">GitHub</a>. Lately I've been also spending some time
                         on <a href="https://www.hackerrank.com/andrerpena">Hackerrank</a> and <a href="http://codepen.io/andrerpena/">Codepen</a>. I'm also
                         trying to find time to express my thoughts on <a href="https://medium.com/@andrerpena">Medium</a>.
                     </p>
