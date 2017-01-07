@@ -10,8 +10,12 @@ const MainHeader = () => <div className="main-header">
         Andr&#233; Rodrigues Pena
     </h1>
     <p>
-        Software developer, architect, teach lead, open-source contributor, 32 years old
+        Software developer, architect, teach lead, open-source contributor
     </p>
+    <div className="extra-info">
+        <Item icon="map-marker" title="Juiz de Fora, Brazil" url="https://www.google.com.br/maps/place/Juiz+de+Fora,+MG/@-21.7288846,-43.4525614,12z/data=!3m1!4b1!4m5!3m4!1s0x989c43e1f85da1:0x6236b026b3a0a468!8m2!3d-21.7624237!4d-43.3433999" />
+        <Item icon="birthday-cake" title="August 12th, 1984 (32 years old)" url="https://en.wikipedia.org/wiki/August_12" />
+    </div>
 </div>
 
 const ButtonBar = () => {
@@ -59,15 +63,24 @@ class App extends Component {
                 <Block title="Bio">
                     <p>
                         I'm self-motivated and passionate about software development and technology in general. I enjoy learning new frameworks, libraries and tools.
-                        I like to participate in online communities like Stackoverflow and contribute to open-source on GitHub. I have 10+ years of experience
-                        with software development. I have experience with a lot of modern technologies (I don't like being stuck in the past) and I'm used to
-                        work in a remote / international team.
+                        .I have experience with a lot of modern web technologies and I'm used to
+                        work in a remote / international team. I'm also well acquainted to large-scale web application architectures.
+                    </p>
+                    <p>
+                        I have 10yr+ experience with web development, specially ASP.NET, HTML, CSS, JavaScript and jQuery. I have 2yr+ experience with modern
+                        web technologies like Node, React, Redux and all that comes with it (Webpack, Babel...).
+                    </p>
+                    <p>
+                        I like to participate in online communities like <a href="http://stackoverflow.com/users/192729/andrerpena">Stackoverflow</a>
+                        and contribute to open-source on <a href="https://github.com/andrerpena">GitHub</a>. Lately I've been also spending some time
+                        on <a href="https://www.hackerrank.com/andrerpena">Hackerrank</a> and <a href="http://codepen.io/andrerpena/">Codepen</a>. I'm also
+                        trying to find time to express my thoughts on <a href="https://medium.com/@andrerpena">Medium</a>.
                     </p>
                     <p>
                         My hobbies are video-games, playing the guitar, traveling and photography.
                     </p>
                     <p>
-                        More details about my professional career <a href="http://stackoverflow.com/story/andrepena">here</a>.
+                        More details about my professional career <a href="http://stackoverflow.com/users/story/192729">here</a>.
                     </p>
                 </Block>
                 <Block title="Current job">
@@ -88,6 +101,7 @@ class App extends Component {
                         <Item title="Facebook" icon="facebook" url="https://www.facebook.com/andrerpena" />
                         <Item title="Twitter" icon="twitter" url="https://twitter.com/andrerpena" />
                         <Item title="Hackerrank" icon="header" url="https://www.hackerrank.com/andrerpena" />
+                        <Item title="Codepen" icon="codepen" url="http://codepen.io/andrerpena/" />
                         <Item title="NPM" icon="code" url="https://www.npmjs.com/~andrerpena" />
                     </div>
                 </Block>
@@ -146,9 +160,7 @@ class App extends Component {
                     <div className="open-source-wrapper">
                         <Item title="react-mde (React component)" icon="github" url="https://github.com/andrerpena/react-mde" />
                         <Item title="L1PM (Chrome extension)" icon="github" url="https://github.com/andrerpena/legalone-pacote-melhorias" />
-                        <Item title="Pushpad (web app)" icon="github" url="https://github.com/andrerpena/pushpad" />
                         <Item title="Matterspace (web app)" icon="github" url="https://github.com/matterspace/matterspace" />
-                        <Item title="This website (website)" icon="github" url="https://github.com/andrerpena/andrerpena.github.io" />
                     </div>
                 </Block>
                 <Block title="Open Source projects I've built but don't maintain anymore">
@@ -161,10 +173,6 @@ class App extends Component {
                         <Item title="formato (JavaScript library)" icon="github" url="https://github.com/gearz-lab/formato" />
                         <Item title="Cerebello (ASP.NET app)" icon="github" url="https://github.com/andrerpena/Cerebello" />
                     </div>
-                </Block>
-                <Block title="Location">
-                    <iframe width="100%" height="300" frameBorder="0" style={{ border: 0, marginTop: 5 }}
-                        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJT5tvl1-bmAAR7llGN0HiHvo&key=AIzaSyA6Wlf-UvJONIzGsyp-g53SMdgcgyLjQG4"></iframe>
                 </Block>
             </div>
         );

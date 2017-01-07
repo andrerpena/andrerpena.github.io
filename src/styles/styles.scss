@@ -31,10 +31,30 @@ body {
         }
 
         p {
+            line-height: 25px;
             margin: 0;
             padding: 0;
             font-size: 1rem;
             color: darken($default-text-color, 0.5);
+        }
+        .extra-info {
+            color: light-gray;
+            display: flex;
+            align-content: flex-start;
+            font-size: 0.9em;
+            line-height: 25px;
+            .item {
+                margin-right: 5px;
+                color: #a5a5a5;
+                a, a:visited, a:hover, a:active {
+                    margin-left: 5px;
+                    text-decoration: none;
+                    color: #a5a5a5;
+                }
+                &:not(:first-child) {
+                    margin-left: 10px;
+                }
+            }
         }
     }
 
@@ -93,7 +113,11 @@ body {
                 text-decoration: none;
                 color: white;
             }
+            &:last-child {
+                flex-grow: 0;
+            }
         }
+        
     }
 
     .technologies-wrapper {
@@ -115,6 +139,9 @@ body {
                 &.no-margin {
                     margin: 0;
                 }
+            }
+            &:last-child {
+                flex-grow: 0;
             }
         }
     }
@@ -159,6 +186,7 @@ body {
             span {
                 margin-left: 5px;
             }
+            
         }
     }
 
@@ -223,6 +251,9 @@ body {
                 text-decoration: none;
                 color: white;
             }
+            &:last-child {
+                flex-grow: 0;
+            }
         }
     }
 
@@ -247,6 +278,9 @@ body {
                 margin-left: 5px;
                 text-decoration: none;
                 color: white;
+            }
+            &:last-child {
+                flex-grow: 0;
             }
         }
     }
