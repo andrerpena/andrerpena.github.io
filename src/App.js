@@ -127,14 +127,6 @@ class App extends Component {
                         <Item title="Chrome Extensions" />
                     </div>
                 </Block>
-                <Block title="Technologies I'm currently studying and plan to become familiar in 2017">
-                    <div className="technologies-future-wrapper">
-                        <Item title="Python" />
-                        <Item title="Azure" />
-                        <Item title="Angular 2" />
-                        <Item title="TypeScript" />
-                    </div>
-                </Block>
                 <Block title="Contact">
                     <div className="contact-wrapper">
                         <Item title="+55 32 99916-8204" icon="whatsapp" />
@@ -148,11 +140,6 @@ class App extends Component {
                         <Item title="Microsoft Specialist: Programming in C#  " icon="trophy" />
                         <Item title="Microsoft Certified Professional " icon="trophy" />
                         <Item title="Microsoft® Certified Technology Specialist: .NET Framework 4, Web Applications" icon="trophy" />
-                    </div>
-                </Block>
-                <Block title="Certifications I'm studing for an planning to get in 2017">
-                    <div className="certifications-future-wrapper">
-                        <Item title="MCSA: Cloud Platform (Azure)" icon="trophy" />
                     </div>
                 </Block>
                 <Block title="Open Source projects I'm currently working on">
