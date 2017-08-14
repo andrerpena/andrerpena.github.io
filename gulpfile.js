@@ -31,5 +31,5 @@ gulp.task('copy-cname', function () {
 gulp.task('build', ['copy-index', 'copy-cv', 'copy-cname', 'copy-favicon'], function () {
     return gulp.src("./src/client.js")
         .pipe(webpack(webpackConfig))
-        .pipe(gulp.dest('./build'));
+        .pipe(gulp.dest('./docs'));
 });
