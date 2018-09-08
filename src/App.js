@@ -37,8 +37,8 @@ class App extends Component {
                 <div className="body-wrapper">
                     <div className="body">
                         <p>
-                            I have 11yr+ experience with <span className="badge">Web Development</span> and <span className="badge">Software Architecture</span>.
-                            I'm very familiar with C#, ASP.NET, HTML, CSS, Sass, JavaScript, jQuery, Node, React, Redux, Webpack, Babel and others.
+                            I have 12y of experience with <span className="badge">Web Development</span> and <span className="badge">Software Architecture</span>.
+                            Technologies: JavaScript, TypeScript, Node, Webpack, C#, ASP.NET, HTML, CSS, Sass and others.
                         </p>
                         <p>
                             <a href="cv.pdf" target="_blank">Download my CV</a>. <a href="http://stackoverflow.com/users/story/192729" target="_blank">Know more about my career</a>.
