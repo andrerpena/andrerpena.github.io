@@ -9,95 +9,38 @@
 /sw.js
   Cache-Control: no-cache
 /offline-plugin-app-shell-fallback/
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
+  Link: </webpack-runtime-3e6a577b30d6ec9c32e0.js>; rel=preload; as=script
   Link: </component---node-modules-gatsby-plugin-offline-app-shell-js-67b3578e2c955c088b60.js>; rel=preload; as=script
 /404
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
+  Link: </webpack-runtime-3e6a577b30d6ec9c32e0.js>; rel=preload; as=script
   Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
 /tags
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
+  Link: </webpack-runtime-3e6a577b30d6ec9c32e0.js>; rel=preload; as=script
   Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
 /categories
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
+  Link: </webpack-runtime-3e6a577b30d6ec9c32e0.js>; rel=preload; as=script
   Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
 /pages/about/
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
+  Link: </webpack-runtime-3e6a577b30d6ec9c32e0.js>; rel=preload; as=script
   Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
 /pages/contacts/
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
-  Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
-/posts/perfecting-the-art-of-perfection/
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
-  Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
-/posts/the-origins-of-social-stationery-lettering
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
-  Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
-/posts/a-brief-history-of-typography/
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
+  Link: </webpack-runtime-3e6a577b30d6ec9c32e0.js>; rel=preload; as=script
   Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
 /posts/humane-typography-in-the-digital-age/
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
-  Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
-/posts/the-birth-of-movable-type/
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
-  Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
-/posts/creating-a-blog/
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
+  Link: </webpack-runtime-3e6a577b30d6ec9c32e0.js>; rel=preload; as=script
   Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
 /tag/design
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
-  Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
-/tag/gatsby
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
-  Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
-/tag/handwriting
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
-  Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
-/tag/helvetica
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
-  Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
-/tag/history
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
-  Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
-/tag/history-of-typography
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
-  Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
-/tag/learning-to-write
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
-  Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
-/tag/lettering
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
-  Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
-/tag/linotype
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
-  Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
-/tag/monotype
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
-  Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
-/tag/open-source
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
-  Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
-/tag/typefaces
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
+  Link: </webpack-runtime-3e6a577b30d6ec9c32e0.js>; rel=preload; as=script
   Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
 /tag/typography
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
+  Link: </webpack-runtime-3e6a577b30d6ec9c32e0.js>; rel=preload; as=script
   Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
 /tag/web-development
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
-  Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
-/category/design-culture
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
-  Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
-/category/design-inspiration
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
+  Link: </webpack-runtime-3e6a577b30d6ec9c32e0.js>; rel=preload; as=script
   Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
 /category/typography
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
+  Link: </webpack-runtime-3e6a577b30d6ec9c32e0.js>; rel=preload; as=script
   Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
 /
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
-  Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
-/page/1
-  Link: </webpack-runtime-2aedc9ad5a96f0c3908d.js>; rel=preload; as=script
+  Link: </webpack-runtime-3e6a577b30d6ec9c32e0.js>; rel=preload; as=script
   Link: </styles.49cae1fd9a796d8a28ae.css>; rel=preload; as=script
