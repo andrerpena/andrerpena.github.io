@@ -9,38 +9,38 @@
 /sw.js
   Cache-Control: no-cache
 /offline-plugin-app-shell-fallback/
-  Link: </webpack-runtime-d97644976fe4cdd5b1c5.js>; rel=preload; as=script
+  Link: </webpack-runtime-8c29eff707f6ffce520d.js>; rel=preload; as=script
   Link: </component---node-modules-gatsby-plugin-offline-app-shell-js-9a4303a608d338ee5907.js>; rel=preload; as=script
 /404
-  Link: </webpack-runtime-d97644976fe4cdd5b1c5.js>; rel=preload; as=script
+  Link: </webpack-runtime-8c29eff707f6ffce520d.js>; rel=preload; as=script
   Link: </0-0e9511bdabf34b5efc65.js>; rel=preload; as=script
 /tags
-  Link: </webpack-runtime-d97644976fe4cdd5b1c5.js>; rel=preload; as=script
+  Link: </webpack-runtime-8c29eff707f6ffce520d.js>; rel=preload; as=script
   Link: </0-0e9511bdabf34b5efc65.js>; rel=preload; as=script
 /categories
-  Link: </webpack-runtime-d97644976fe4cdd5b1c5.js>; rel=preload; as=script
+  Link: </webpack-runtime-8c29eff707f6ffce520d.js>; rel=preload; as=script
   Link: </0-0e9511bdabf34b5efc65.js>; rel=preload; as=script
 /pages/about/
-  Link: </webpack-runtime-d97644976fe4cdd5b1c5.js>; rel=preload; as=script
+  Link: </webpack-runtime-8c29eff707f6ffce520d.js>; rel=preload; as=script
   Link: </0-0e9511bdabf34b5efc65.js>; rel=preload; as=script
 /pages/contacts/
-  Link: </webpack-runtime-d97644976fe4cdd5b1c5.js>; rel=preload; as=script
+  Link: </webpack-runtime-8c29eff707f6ffce520d.js>; rel=preload; as=script
   Link: </0-0e9511bdabf34b5efc65.js>; rel=preload; as=script
-/posts/humane-typography-in-the-digital-age/
-  Link: </webpack-runtime-d97644976fe4cdd5b1c5.js>; rel=preload; as=script
+/posts/i-just-released-remoted-io/
+  Link: </webpack-runtime-8c29eff707f6ffce520d.js>; rel=preload; as=script
   Link: </0-0e9511bdabf34b5efc65.js>; rel=preload; as=script
-/tag/design
-  Link: </webpack-runtime-d97644976fe4cdd5b1c5.js>; rel=preload; as=script
+/tag/remote-work
+  Link: </webpack-runtime-8c29eff707f6ffce520d.js>; rel=preload; as=script
   Link: </0-0e9511bdabf34b5efc65.js>; rel=preload; as=script
-/tag/typography
-  Link: </webpack-runtime-d97644976fe4cdd5b1c5.js>; rel=preload; as=script
+/tag/remoted
+  Link: </webpack-runtime-8c29eff707f6ffce520d.js>; rel=preload; as=script
   Link: </0-0e9511bdabf34b5efc65.js>; rel=preload; as=script
 /tag/web-development
-  Link: </webpack-runtime-d97644976fe4cdd5b1c5.js>; rel=preload; as=script
+  Link: </webpack-runtime-8c29eff707f6ffce520d.js>; rel=preload; as=script
   Link: </0-0e9511bdabf34b5efc65.js>; rel=preload; as=script
-/category/typography
-  Link: </webpack-runtime-d97644976fe4cdd5b1c5.js>; rel=preload; as=script
+/category/remoted
+  Link: </webpack-runtime-8c29eff707f6ffce520d.js>; rel=preload; as=script
   Link: </0-0e9511bdabf34b5efc65.js>; rel=preload; as=script
 /
-  Link: </webpack-runtime-d97644976fe4cdd5b1c5.js>; rel=preload; as=script
+  Link: </webpack-runtime-8c29eff707f6ffce520d.js>; rel=preload; as=script
   Link: </0-0e9511bdabf34b5efc65.js>; rel=preload; as=script
